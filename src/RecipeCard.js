@@ -2,12 +2,14 @@ import React from 'react';
 
 const RecipeCard = ({ name, image, difficulty, prepTime, tags }) => {
     return (
-        <div className="recipe-card">
-            <img src={image} alt={name} />
-            <h2>{name}</h2>
-            <p>Difficulty: {difficulty}</p>
-            <p>Prep Time: {prepTime}</p>
-            <p>Tags: {tags.join(', ')}</p>
+        <div className="card recipe-card">
+            <img src={image} alt={name} className="card-img-top" />
+            <div className="card-body">
+                <h5 className="card-title">{name}</h5>
+                <p className="card-text">Difficulty: {difficulty}</p>
+                <p className="card-text">Prep Time: {prepTime}</p>
+                <p className="card-text">Tags: {tags.join(', ')}</p>
+            </div>
         </div>
     );
 };

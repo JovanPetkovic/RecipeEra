@@ -2,7 +2,7 @@ export const recipeList = [
     {
         id: 1,
         name: 'Vegan Lentil Soup',
-        image: 'https://www.example.com/lentil-soup.jpg',
+        image: '/images/vegan_lentil_soup.jpeg',
         difficulty: 'Easy',
         prepTime: '30 minutes',
         tags: ['vegan', 'soup', 'lentils'],
@@ -10,7 +10,7 @@ export const recipeList = [
     {
         id: 2,
         name: 'Vegan Tofu Stir Fry',
-        image: 'https://www.example.com/tofu-stir-fry.jpg',
+        image: '/images/vegan_tofu_stir_fry.jpg',
         difficulty: 'Medium',
         prepTime: '45 minutes',
         tags: ['vegan', 'stir fry', 'tofu', 'vegetables'],
@@ -18,15 +18,15 @@ export const recipeList = [
     {
         id: 3,
         name: 'Vegan Butternut Squash Curry',
-        image: 'https://www.example.com/butternut-squash-curry.jpg',
+        image: '/images/vegan_butternout_curry.jpg',
         difficulty: 'Medium',
         prepTime: '1 hour',
-        tags: ['vegan', 'curry', 'butternut squash', 'rice'],
+        tags: ['vegan', 'curry', 'butternut', 'rice'],
     },
     {
         id: 4,
         name: 'Vegan Quinoa Salad',
-        image: 'https://www.example.com/quinoa-salad.jpg',
+        image: '/images/vegan_quinoa_salad.jpeg',
         difficulty: 'Easy',
         prepTime: '20 minutes',
         tags: ['vegan', 'salad', 'quinoa', 'vegetables'],
@@ -34,7 +34,7 @@ export const recipeList = [
     {
         id: 5,
         name: 'Vegan Mushroom Risotto',
-        image: 'https://www.example.com/mushroom-risotto.jpg',
+        image: '/images/vegan_mushroom_risotto.jpg',
         difficulty: 'Hard',
         prepTime: '1 hour 30 minutes',
         tags: ['vegan', 'risotto', 'mushrooms', 'rice'],
@@ -42,7 +42,7 @@ export const recipeList = [
     {
         id: 6,
         name: 'Vegan Chickpea Curry',
-        image: 'https://www.example.com/chickpea-curry.jpg',
+        image: '/images/vegan_chickpea_curry.jpeg',
         difficulty: 'Easy',
         prepTime: '45 minutes',
         tags: ['vegan', 'curry', 'chickpeas', 'rice'],
@@ -50,7 +50,7 @@ export const recipeList = [
     {
         id: 7,
         name: "Classic Cheeseburger",
-        image: "https://www.simplyrecipes.com/wp-content/uploads/2018/07/HT-Classic-Cheeseburger-NEW-1-600x840.jpg",
+        image: "/images/classic_cheeseburger.webp",
         difficulty: "Easy",
         prepTime: "30 minutes",
         tags: ["popular","Beef", "Burger", "American"]
@@ -58,7 +58,7 @@ export const recipeList = [
     {
         id: 8,
         name: "Chicken Alfredo",
-        image: "https://www.simplyrecipes.com/wp-content/uploads/2020/09/Chicken-Alfredo-LEAD-2.jpg",
+        image: "/images/chicken_alfredo.jpg",
         difficulty: "Intermediate",
         prepTime: "45 minutes",
         tags: ["popular","Chicken", "Pasta", "Italian"]
@@ -66,7 +66,7 @@ export const recipeList = [
     {
         id: 9,
         name: "Beef Stroganoff",
-        image: "https://www.simplyrecipes.com/wp-content/uploads/2019/03/beef-stroganoff-lead-3.jpg",
+        image: "/images/beef_stroganoff.jpeg",
         difficulty: "Intermediate",
         prepTime: "1 hour",
         tags: ["popular","Beef", "Mushrooms", "Russian"]
@@ -74,7 +74,7 @@ export const recipeList = [
     {
         id: 10,
         name: "Spaghetti and Meatballs",
-        image: "https://www.simplyrecipes.com/wp-content/uploads/2019/02/Simple-Spaghetti-and-Meatballs-LEAD-HORIZONTAL.jpg",
+        image: "/images/spaghetti_meatballs.jpg",
         difficulty: "Easy",
         prepTime: "1 hour",
         tags: ["popular","Pasta", "Meatballs", "Italian"]
@@ -82,7 +82,7 @@ export const recipeList = [
     {
         id: 11,
         name: "Macaroni and Cheese",
-        image: "https://www.simplyrecipes.com/wp-content/uploads/2019/11/easy-mac-and-cheese-horiz-a-2000.jpg",
+        image: "/images/mac_cheese.jpeg",
         difficulty: "Easy",
         prepTime: "30 minutes",
         tags: ["popular","Pasta", "Cheese", "American"]
@@ -90,7 +90,7 @@ export const recipeList = [
     {
         id: 12,
         name: "Beef Tacos",
-        image: "https://www.simplyrecipes.com/wp-content/uploads/2018/01/HT-Beef-Tacos-LEAD-HORIZONTAL-600x840.jpg",
+        image: "/images/beef_tacos.jpg",
         difficulty: "Easy",
         prepTime: "30 minutes",
         tags: ["popular","Beef", "Tacos", "Mexican"]
@@ -98,7 +98,7 @@ export const recipeList = [
     {
         id: 13,
         name: 'Garlic Butter Shrimp',
-        image: 'https://example.com/garlic-butter-shrimp.jpg',
+        image: '/images/garlic_butter_shrimp.jpg',
         difficulty: 'Easy',
         prepTime: '20 minutes',
         tags: ['Seafood', 'Garlic', 'Butter']
@@ -106,7 +106,7 @@ export const recipeList = [
     {
         id: 14,
         name: 'Pan-Seared Scallops with Lemon Butter Sauce',
-        image: 'https://example.com/pan-seared-scallops.jpg',
+        image: '/images/pan_seared_scallops.jpeg',
         difficulty: 'Medium',
         prepTime: '30 minutes',
         tags: ['Seafood', 'Scallops', 'Lemon', 'Butter']
@@ -114,7 +114,7 @@ export const recipeList = [
     {
         id: 15,
         name: 'Grilled Lobster Tails',
-        image: 'https://example.com/grilled-lobster-tails.jpg',
+        image: '/images/grilled_lobster_tails.jpeg',
         difficulty: 'Hard',
         prepTime: '1 hour',
         tags: ['Seafood', 'Lobster', 'Grilled']
@@ -122,7 +122,7 @@ export const recipeList = [
     {
         id: 16,
         name: 'Crab Cakes',
-        image: 'https://example.com/crab-cakes.jpg',
+        image: '/images/crab_cakes.jpg',
         difficulty: 'Medium',
         prepTime: '45 minutes',
         tags: ['Seafood', 'Crab', 'Cakes']
@@ -130,7 +130,7 @@ export const recipeList = [
     {
         id: 17,
         name: 'Seafood Paella',
-        image: 'https://example.com/seafood-paella.jpg',
+        image: '/images/seafood_paella.jpeg',
         difficulty: 'Medium',
         prepTime: '1 hour 30 minutes',
         tags: ['Seafood', 'Paella']
@@ -138,7 +138,7 @@ export const recipeList = [
     {
         id: 18,
         name: 'Grilled Salmon with Avocado Salsa',
-        image: 'https://example.com/grilled-salmon.jpg',
+        image: '/images/salmon_avocado.jpeg',
         difficulty: 'Easy',
         prepTime: '25 minutes',
         tags: ['Seafood', 'Salmon', 'Grilled', 'Avocado']
@@ -146,7 +146,7 @@ export const recipeList = [
     {
         id: 19,
         name: "Chocolate Brownies",
-        image: "https://www.example.com/brownies.jpg",
+        image: "/images/choco_brownies.jpg",
         difficulty: "Intermediate",
         prepTime: "1 hour",
         tags: ["Dessert", "Chocolate", "Baking"]
@@ -154,7 +154,7 @@ export const recipeList = [
     {
         id: 20,
         name: "Vanilla Cupcakes",
-        image: "https://www.example.com/cupcakes.jpg",
+        image: "/images/vanilla_cupcake.jpeg",
         difficulty: "Beginner",
         prepTime: "45 minutes",
         tags: ["Dessert", "Cupcakes", "Baking"]
@@ -162,7 +162,7 @@ export const recipeList = [
     {
         id: 21,
         name: "Strawberry Cheesecake",
-        image: "https://www.example.com/cheesecake.jpg",
+        image: "/images/strawberry_cheesecake.jpeg",
         difficulty: "Advanced",
         prepTime: "2 hours",
         tags: ["Dessert", "Cheesecake", "Baking", "Strawberry"]
@@ -170,7 +170,7 @@ export const recipeList = [
     {
         id: 22,
         name: "Blueberry Pie",
-        image: "https://www.example.com/blueberrypie.jpg",
+        image: "/images/blueberry_pie.jpg",
         difficulty: "Intermediate",
         prepTime: "1 hour 30 minutes",
         tags: ["Dessert", "Pie", "Baking", "Blueberry"]
@@ -178,7 +178,7 @@ export const recipeList = [
     {
         id: 23,
         name: "Banana Bread",
-        image: "https://www.example.com/bananabread.jpg",
+        image: "/images/banana_bread.jpg",
         difficulty: "Beginner",
         prepTime: "1 hour 15 minutes",
         tags: ["Dessert", "Bread", "Baking", "Banana"]
@@ -186,7 +186,7 @@ export const recipeList = [
     {
         id: 24,
         name: "Lemon Bars",
-        image: "https://www.example.com/lemonbars.jpg",
+        image: "/images/lemon_bars.jpeg",
         difficulty: "Intermediate",
         prepTime: "1 hour 15 minutes",
         tags: ["Dessert", "Lemon", "Baking"]

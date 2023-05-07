@@ -30,7 +30,6 @@ function Recipes(){
 
     return(
         <div>
-            <h1>Recipes</h1>
             <Search onSearch={handleSearchChange}/>
             <Filter items={tagList} onChange={handleTagFilterChange}/>
             <RecipeCategory title={"Recipes"} tags={selectedTags} search={searchTags}/>

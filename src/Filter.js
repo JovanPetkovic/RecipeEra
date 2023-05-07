@@ -18,19 +18,21 @@ const Filter = ({ items, onChange }) => {
     };
 
     return (
-        <div>
+        <div className="d-flex flex-wrap align-items-between mx-auto text-center my-5" style={{width: '90%'}}>
             {items.map((item) => (
-                <label key={item}>
+                <label key={item} className="form-check form-check-inline" style={{width: '100px'}}>
                     <input
                         type="checkbox"
                         value={item}
                         checked={selected.includes(item)}
                         onChange={() => handleToggle(item)}
+                        className="form-check-input"
                     />
-                    {item}
+                    <span className="form-check-label">{item}</span>
                 </label>
             ))}
         </div>
+
     );
 };
 

@@ -17,16 +17,22 @@ code {
   margin-top: 50px;
 }
 
+.srch{
+  max-width: 400px;
+  margin: 10px auto;
+}
+
 .recipe-cards{
   text-align: left;
   display: flex;
   width: 90%;
+  height: auto;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 .recipe-card{
-  width: 360px;
-  padding: 20px;
+  width: 240px;
+  margin: 30px;
 }
